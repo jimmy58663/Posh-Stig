@@ -3,7 +3,7 @@ The purpose of this project is to create a PowerShell module that will allow qui
 
 Currently the idea is that each STIG will have its own 'Get' and 'Set' functions that will check settings or change settings. Out-StigCkl will be utilized to process all the settings into a .ckl file that can be viewed in STIG Viewer. The expected input for this function is an array of custom PSObjects, possibly implement a class for this and the vulnerabilities. A single object will represent a single .ckl. The expected format is below:
 
-$Obj{
+$StigCklObj{
 
   [string]HostName;
   
