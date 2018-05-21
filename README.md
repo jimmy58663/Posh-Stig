@@ -25,7 +25,7 @@ The vulnerabilities will be custom PSObjects each representing a single vulnerab
 
 $Vuln{
 
-  [string]StigID;
+  [string]VulnNum;
   
   [string]Finding;
   
@@ -35,7 +35,7 @@ $Vuln{
   
 }
 
-The StigID should be in the format of 'V-XXXXXX' and the valid values for Status are: 'Not_Reviewed', 'NotAFinding', 'Open', 'Not_Applicable'.
+The VulnNum should be in the format of 'V-XXXXXX' and the valid values for Status are: 'Not_Reviewed', 'NotAFinding', 'Open', 'Not_Applicable'.
 
 Long-term goal is to add a GUI to this and make it easy to modify site specific settings for vulnerabilities. This includes the Status, Findings, and Comments.
 
